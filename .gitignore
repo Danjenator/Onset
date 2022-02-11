@@ -9,3 +9,6 @@ npm-debug.log
 *.md
 *.sh
 engine/benchmark.py
+bin/
+lib/
+pyvenv.cfg

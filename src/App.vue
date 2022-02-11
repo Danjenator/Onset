@@ -237,6 +237,7 @@ export default {
       // Handle a valid response
         .then((response) => {
           // Trigger API error display if necessary
+          console.log('response for evolve', response);
           if (response.data.error !== 0) {
             this.showError(response.data.error);
           } else {
@@ -295,6 +296,7 @@ export default {
         // Handle a valid response
           .then((response) => {
             // Trigger API error display if necessary
+            console.log('response for apply', response);
             if (response.data.error !== 0) {
               this.showError(response.data.error);
             } else {
